@@ -1,0 +1,37 @@
+{
+	"manifest_version": 2,
+    
+  "name":"HyperTyper",
+  "version": "1.0",
+ 	
+  "description":"A TypeRacer Bot/Hack",
+    
+  "page_action": {
+  	"default_icon": "res/hypertyper 38.png",
+    "default_title": "Want to win this race?"
+  },
+    
+  "homepage_url": "http://ethanmad.github.io",
+    
+  "content_scripts":  [
+    {
+		  "matches": ["http://play.typeracer.com/"],
+      "js": ["script.js"]
+	  }
+	 ],
+    
+  "background": {
+    "scripts": ["res/background.js"],
+    "persistent": false
+  },
+	
+  "permissions": [
+    "declarativeContent", "tabs", "http://play.typeracer.com/", "activeTab"
+  ],
+    
+  "icons": {
+    "16": "res/hypertyper 16.png",
+	  "48": "res/hypertyper 48.png",
+		"128": "res/hypertyper 128.png"
+	 }
+}
