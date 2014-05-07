@@ -1,5 +1,5 @@
 //index 0 = TypeRacer, 1 = typrX, 2=10fastfingers
-var textOptions = ['nonHideableWords unselectable', 'cw-QuotePanel-textToTypePanel', 'textBox'];
+var textOptions = ['nonHideableWords unselectable', 'cw-QuotePanel-textToTypePanel', 'row1'];
 var inputBoxOptions = ['txtInput', 'cw-TypedinputBox race-go', 'form-control'];   
 
 var website = -1;
