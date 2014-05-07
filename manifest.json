@@ -1,37 +1,37 @@
 {
 	"manifest_version": 2,
     
-  "name":"HyperTyper",
-  "version": "1.0",
+	"name": "HyperTyper",
+	"version": "1.0",
  	
-  "description":"A TypeRacer Bot/Hack",
+	"description": "An easy way to get 300+ WPM in typing games.",
     
-  "page_action": {
-  	"default_icon": "res/hypertyper 38.png",
-    "default_title": "Want to win this race?"
-  },
+	"page_action": {
+		"default_icon": "res/hypertyper 38.png",
+		"default_title": "Want to win this race?"
+	},
     
-  "homepage_url": "http://ethanmad.github.io",
+	"homepage_url": "http://ethanmad.github.io",
     
-  "content_scripts":  [
-    {
-		  "matches": ["http://play.typeracer.com/"],
-      "js": ["script.js"]
-	  }
-	 ],
+	"content_scripts":  [
+		{
+			"matches": ["http://play.typeracer.com/"],
+			"js": ["script.js"]
+		}
+	],
     
-  "background": {
-    "scripts": ["res/background.js"],
-    "persistent": false
-  },
+	"background": {
+		"scripts": ["res/background.js"],
+		"persistent": false
+	},
 	
-  "permissions": [
-    "declarativeContent", "tabs", "http://play.typeracer.com/", "activeTab"
-  ],
+	"permissions": [
+		"declarativeContent", "tabs", "http://play.typeracer.com/", "activeTab"
+	],
     
-  "icons": {
-    "16": "res/hypertyper 16.png",
-	  "48": "res/hypertyper 48.png",
-		"128": "res/hypertyper 128.png"
-	 }
+	"icons": {
+		"16": "res/hypertyper 16.png",
+		"48": "res/hypertyper 48.png",
+		"128": "res/flag 128.png"
+	}
 }
