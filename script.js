@@ -10,7 +10,7 @@ for(w = 0; w < textOptions.length; w++) {
     classOrId = 0;
     break;
   }
-  if(!(document.getElementById(textOptions[w] == null))) {
+  else if(!(document.getElementById(textOptions[w]) == null)) {
     website = w;
     classOrId = 1;
     break;
@@ -29,7 +29,7 @@ if(website > -1 && classOrId > -1) {
   var numWords = text.split(" ").length;
   
   //find box to put words into
-  var input = document.getElementsByClassName(inputBoxOptions[website])[0];
+  var inputBox = document.getElementsByClassName(inputBoxOptions[website])[0];
   i = 0; //word counter
   
   //put words into inputBox
