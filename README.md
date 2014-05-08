@@ -4,10 +4,10 @@ HyperTyper
 An easy way to get over 300 WPM in typing games.
 
 <h3> Supported games: </h3>
-<a href='http://play.typeracer.com/'> TypeRacer </a> <br>
-<a href='http://app.typrx.com/'> ~~typrX~~ </a> <br>
-<a href='http://10fastfingers.com/'> 10FastFingers </a> <br>
-<a href='http://typingspeedcontest.com/'> Typing Speed Contest </a> (try to beat my high score!)
+<a href='http://play.typeracer.com/'>TypeRacer</a> <br>
+<a href='http://app.typrx.com/'>~~typrX~~</a> <br>
+<a href='http://10fastfingers.com/'>10FastFingers</a> <br>
+<a href='http://typingspeedcontest.com/'>Typing Speed Contest</a> (try to beat my high score!)
 
 <h3> Install: </h3>
 <script language="JavaScript" type="Text/Javascript">
@@ -23,4 +23,5 @@ alert("Sorry! Your browser doesn't support function.
 Use the bookmark option in your browser instead.");
 }
 } // --></script>
-<a href="javascript:bookmark()">Click here to add bookmarklet</a>
+<a href="javascript:bookmark()">Click here to add bookmarklet</a> (for non-Chrome browsers)
+<a href='https://chrome.google.com/webstore/detail/hypertyper/emlnlmijjaghanenmpdjdckanpdinpgn'>Chrome Extension</a>
