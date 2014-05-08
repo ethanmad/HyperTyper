@@ -1,10 +1,12 @@
+//names of text & input boxes for various websites
 //index 0 = TypeRacer, 1 = typrX, 2 = 10FastFingers, 3 = Typing Test
 var textOptions = ['nonHideableWords unselectable', 'cw-QuotePanel-textToTypePanel', 'row1', 'practiceText'];
 var inputBoxOptions = ['txtInput', 'cw-TypedinputBox race-go', 'form-control', 'tentry'];   
 
-var website = -1;
-var classOrId = -1;
+var website = -1; //index for the arrays above
+var classOrId = -1; //used later; 0 means text will be identified by its class, 1 means will be identified by its Id
 
+//assigns valuies to website and classOrId
 for(w = 0; w < textOptions.length; w++) {
   if(!(document.getElementsByClassName(textOptions[w])[0] == null)) {
     website = w;
@@ -17,12 +19,12 @@ for(w = 0; w < textOptions.length; w++) {
   }
 }
 
-if(website > -1 && classOrId > -1) {
+if(website > -1 && classOrId > -1) { //prevents potential errors
   //get passage from HTML
   var text;
-  if(classOrId = 0)
+  if(classOrId === 0)
     text = document.getElementsByClassName(textOptions[website])[0].textContent;
-  else if (classOrId = 1)
+  else if (classOrId === 1)
     text = document.getElementById(textOptions[website]).textContent;
 
   //get number of words in text
