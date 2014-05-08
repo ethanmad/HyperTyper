@@ -33,8 +33,8 @@ if(website > -1 && classOrId > -1) {
   var inputBox;
   if(!(document.getElementsByClassName(inputBoxOptions[website])[0] == null))
     inputBox = document.getElementsByClassName(inputBoxOptions[website])[0];
-  else if(!(document.getElementsById(inputBoxOptions[website]) == null))
-    inputBox = document.getElementsById(inputBoxOptions[website]);
+  else if(!(document.getElementById(inputBoxOptions[website]) == null))
+    inputBox = document.getElementById(inputBoxOptions[website]);
 
   i = 0; //word counter
   
