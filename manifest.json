@@ -26,7 +26,7 @@
 	},
 	
 	"permissions": [
-		"declarativeContent", "tabs", "activeTab", "http://play.typeracer.com/", "http://10fastfingers.com/", "http://app.typrx.com/", "http://typingspeedcontest.com/"
+		"declarativeContent", "tabs", "activeTab", "http://play.typeracer.com/", "http://10fastfingers.com/*", "http://app.typrx.com/", "http://typingspeedcontest.com/"
 	],
     
 	"icons": {
