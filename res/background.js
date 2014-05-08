@@ -12,7 +12,16 @@ chrome.runtime.onInstalled.addListener(function() {
         conditions: [
           new chrome.declarativeContent.PageStateMatcher({
             pageUrl: { urlMatches: 'http://play.typeracer.com/' },
-          })
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+			pageUrl: { urlMatches: 'http://typingspeedcontest.com/' },
+		  }),
+		  new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: { urlMatches: 'http://10fastfingers.com/' },
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+			pageUrl: { urlMatches: 'http://app.typrX.com/' },
+		  }),
         ],
         // And shows the extension's page action.
         actions: [ new chrome.declarativeContent.ShowPageAction()]
