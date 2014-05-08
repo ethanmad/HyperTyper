@@ -23,5 +23,5 @@ alert("Sorry! Your browser doesn't support function.
 Use the bookmark option in your browser instead.");
 }
 } // --></script>
-<a href="javascript:bookmark()">Click here to add bookmarklet</a> (for non-Chrome browsers)
+<a href="javascript:bookmark()">Click here to add bookmarklet</a> (for non-Chrome browsers) <br>
 <a href='https://chrome.google.com/webstore/detail/hypertyper/emlnlmijjaghanenmpdjdckanpdinpgn'>Chrome Extension</a>
