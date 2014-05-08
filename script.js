@@ -20,11 +20,10 @@ for(w = 0; w < textOptions.length; w++) {
 if(website > -1 && classOrId > -1) {
   //get passage from HTML
   var text;
-  if(classOrId = 0) {
+  if(classOrId = 0)
     text = document.getElementsByClassName(textOptions[website])[0].textContent;
-  } else if (classOrId = 1) {
+  else if (classOrId = 1)
     text = document.getElementById(textOptions[website]).textContent;
-  }
 
   //get number of words in text
   var numWords = text.split(" ").length;
