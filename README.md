@@ -23,4 +23,4 @@ alert("Sorry! Your browser doesn't support function.
 Use the bookmark option in your browser instead.");
 }
 } // --></script>
-<input type="button" name="Bookmark this page" onclick="bookmark()" />
+<a href="javascript:bookmark()">Click here to add bookmarklet</a>
