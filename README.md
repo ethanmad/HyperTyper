@@ -24,5 +24,4 @@ Use the bookmark option in your browser instead.");
 }
 } // --></script>
 <a href="javascript:bookmark()">Click here to add bookmarklet</a> (for non-Chrome browsers) <br>
-<a>cLiCk HeRe 4 pEniS!! 8===) ;]</a>
 <a href='https://chrome.google.com/webstore/detail/hypertyper/emlnlmijjaghanenmpdjdckanpdinpgn'>Chrome Extension</a>
