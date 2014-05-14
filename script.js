@@ -6,15 +6,6 @@ var inputBoxOptions = ['txtInput', 'cw-TypedinputBox race-go', 'form-control', '
 var website = -1; //index for the arrays above
 var classOrId = -1; //used later; 0 means text will be identified by its class, 1 means will be identified by its Id
 
-var sendSpace = function(elem){
-  var keyEvent = document.createEvent('KeyboardEvent');
-  initMethod = typeof keyEvent.initKeyboardEvemt !== 'undefined' ? 'initKeyboardEvent' : 'initKeyEvent';
-  
-  elem.focus();
-  keyEvent[initMethod]("keydown", true, true, window, false, false, false, false, 32, 0);
-  document.dispatchEvent(keyEvent);
-};
-
 //assigns valuies to website and classOrId
 for (var w = 0; w < textOptions.length; w++) {
   if(!(document.getElementsByClassName(textOptions[w])[0] == null)) {
@@ -68,7 +59,4 @@ if(website > -1 && classOrId > -1) { //prevents potential errors
       addWord();
     }
   };
-  window.setInterval(function(){
-    sendSpace(inputBox);
-  }, 150);
 }
