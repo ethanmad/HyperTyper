@@ -1,7 +1,7 @@
 //names of text & input boxes for various websites
 //index 0 = TypeRacer, 1 = typrX, 2 = 10FastFingers, 3 = Typing Test (not working yet), 4 = Typing Speed Contest
 var textOptions = ['nonHideableWords unselectable', 'cw-QuotePanel-textToTypePanel', 'row1', 'practiceText', 'textData'];
-var inputBoxOptions = ['txtInput', 'cw-TypedinputBox race-go', 'form-control', 'tentry', 'userData'];
+var inputBoxOptions = ['txtInput', 'cw-TypedTextBox race-go', 'form-control', 'tentry', 'userData'];
 
 var website = -1; //index for the arrays above
 var classOrId = -1; //used later; 0 means text will be identified by its class, 1 means will be identified by its Id
