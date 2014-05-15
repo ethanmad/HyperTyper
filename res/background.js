@@ -8,7 +8,7 @@ chrome.runtime.onInstalled.addListener(function() {
     // With a new rule ...
     chrome.declarativeContent.onPageChanged.addRules([
       {
-        // That fires when a page's URL contains a 'g' ...
+        // That fires when a page's URL matches one of the following' ...
         conditions: [
           new chrome.declarativeContent.PageStateMatcher({
             pageUrl: { urlMatches: 'http://play.typeracer.com/' },
@@ -16,13 +16,13 @@ chrome.runtime.onInstalled.addListener(function() {
           new chrome.declarativeContent.PageStateMatcher({
 			pageUrl: { urlMatches: 'http://typingspeedcontest.com/' },
 		  }),
-		  new chrome.declarativeContent.PageStateMatcher({
+	  	  new chrome.declarativeContent.PageStateMatcher({
             pageUrl: { urlMatches: 'http://10fastfingers.com/*' },
           }),
           new chrome.declarativeContent.PageStateMatcher({
-			pageUrl: { urlMatches: 'http://app.typrx.com/' },
-		  }),
-        ],
+	    	pageUrl: { urlMatches: 'http://app.typrx.com/' },
+	      })
+        ]
         // And shows the extension's page action.
         actions: [ new chrome.declarativeContent.ShowPageAction()]
       }
