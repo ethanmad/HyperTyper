@@ -8,7 +8,7 @@ An easy way to get over 300 WPM in typing games.
 <a href='http://app.typrx.com/'>~~typrX~~</a> <br>
 <a href='http://10fastfingers.com/'>10FastFingers</a> <br>
 <a href='http://typingspeedcontest.com/'>Typing Speed Contest</a> (try to beat my high score!)
-
+<a href='http://patorjk.com/typing-speed-test/'>PAT or JK's Typing Speed Test</a> 
 <h3> Install: </h3>
 Download the <a href='https://chrome.google.com/webstore/detail/hypertyper/emlnlmijjaghanenmpdjdckanpdinpgn'>Chrome Extension</a> <br>
 Drag
