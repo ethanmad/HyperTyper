@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="HyperTyper : An easy way to get over 500 WPM in typing games.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>HyperTyper</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ethanmad/HyperTyper">View on GitHub</a>
+
+          <h1 id="project_title">HyperTyper</h1>
+          <h2 id="project_tagline">An easy way to get over 500 WPM in typing games.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ethanmad/HyperTyper/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ethanmad/HyperTyper/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="hypertyper" class="anchor" href="#hypertyper" aria-hidden="true"><span class="octicon octicon-link"></span></a>HyperTyper</h1>
+
+<p>A tool for achieving high-scores in typing competitions</p>
+
+<h3>
+<a id="ready-to-hypertype" class="anchor" href="#ready-to-hypertype" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ready to #HyperType?</h3>
+
+<p>HyperTyper is the easiest way to instantly improve your apparent typing abilities. Whether you're looking to finally crack 20 wpm on TypeRacer, dominate typing races, or manipulate the leaderboards of a typing website to make your name the first result when you Google search yourself, HyperTyper is all you need.</p>
+
+<h3>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
+
+<p>If you're on Chrome, get the <a href="https://chrome.google.com/webstore/detail/hypertyper/emlnlmijjaghanenmpdjdckanpdinpgn">Chrome Extension: undefined</a>
+Otherwise, add a bookmarklet by dragging this link, HyperTyper, to your bookmarks bar. Just note that, for some reason, the extension works much better than the bookmarklet. :(</p>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<p>Using HyperTyper is extremely simple; all you need to do is go to one of the <a href="#supported-websites">supported websites</a> and click on the checkered flag that appears in your Omnibar (if you're using the Chrome extension) or click on the bookmarklet to start up HyperTyper. Now (once the first word of the passage is in the input box) press space to #HyperType.</p>
+
+<p>If you're too lazy to press space 500 times, I wrote a use this bash script to press space 600 times. To use it with HyperTyper, first run HyperTyper (click on the icon or bookmarklet), run the script, then get to the input field, and watch.</p>
+
+<pre><code>#! /bin/bash
+sleep 3;
+for ((i=0; i &lt; 600; i++))
+  do
+    xte 'key space'undefined 
+  done
+</code></pre>
+
+<p>It requires a package called <a href="http://sourceforge.net/projects/xautomation/files/xautomation/">Xautomation</a> to work. Fortunately, it's in the repositories for most distros, so you can probably install it using your package manager.</p>
+
+<p>Using apt:<code>$ sudo apt-get install Xautomation</code></p>
+
+<p>Using pacman:<code>$ sudo pacman -S xautomation</code></p>
+
+<p>For other package managers, see Xautomation's Sourceforge page.</p>
+
+<h3>
+<a id="supported-websites" class="anchor" href="#supported-websites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Supported Websites</h3>
+
+<ul>
+<li>  <a href="http://play.typeracer.com">TypeRacer</a>: real-time racing against real people.</li>
+<li>  <a href="http://10fastfingers.com">10FastFingers</a>: testing and competetitions with daily leaderboards.</li>
+<li>  <a href="http://typingspeedcontest.com">Typing Speed Contest</a>: minute long typing test with PERMANANENT (and #HyperTyped) leaderboards!</li>
+<li>  <a href="http://app.typrX.com">typrX</a>: real-time racing, less popular than TypeRacer.</li>
+</ul>
+
+<p>Your favorite typing competition site - <a href="https://github.com/ethanmad/HyperTyper/issues/new">??</a></p>
+
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with HyperTyper? Check out the documentation at <a href="https://github.com/ethanmad/HyperTyper">https://github.com/ethanmad/HyperTyper</a>, submit an issue on GitHub, or send me an <a href="mailto:ethan@ethanmad.com?Subject=HyperTyper%20Issue">email</a>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">HyperTyper maintained by <a href="https://github.com/ethanmad">ethanmad</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
